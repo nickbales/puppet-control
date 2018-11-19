@@ -7,6 +7,7 @@ mod 'puppetlabs/stdlib',      '4.25.1'
 mod 'puppetlabs/concat',      '4.2.1'
 mod 'puppetlabs/java',        '1.6.0'
 mod 'puppetlabs/apache',      '3.4.0'
+mod 'puppetlabs/ntp',         '4.1.2'
 mod 'puppet/selinux',         '1.6.1'
 
 # Modules from Git
@@ -31,7 +32,7 @@ mod 'ssh',
   :git     => 'git@github.com:nickbales/puppet-ssh.git',
   :ref     => 'master'
 
-mod 'ntp',
-  :git => 'git@github.com:nickbales/puppet-ntp.git',
-  :ref => 'master'
+#mod 'ntp',
+#  :git => 'git@github.com:nickbales/puppet-ntp.git',
+#  :ref => 'master'
 
