@@ -21,11 +21,11 @@ mod 'garethr/docker',         '5.3.0'
 
 mod 'role',
   :git     => 'git@github.com:nickbales/puppet-role.git',
-  :ref     => 'master'
+  :ref     => 'development'
 
 mod 'profile',
   :git     => 'git@github.com:nickbales/puppet-profile.git',
-  :ref     => 'master'
+  :ref     => 'development'
 
 mod 'ssh',
   :git     => 'git@github.com:nickbales/puppet-ssh.git',
