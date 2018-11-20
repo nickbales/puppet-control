@@ -20,14 +20,6 @@ mod 'puppet/selinux',         '1.6.1'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-mod 'role',
-  :git     => 'git@github.com:nickbales/puppet-role.git',
-  :ref     => 'master'
-
-mod 'profile',
-  :git     => 'git@github.com:nickbales/puppet-profile.git',
-  :ref     => 'master'
-
 mod 'ssh',
   :git     => 'git@github.com:nickbales/puppet-ssh.git',
   :ref     => 'master'
@@ -35,4 +27,12 @@ mod 'ssh',
 #mod 'ntp',
 #  :git => 'git@github.com:nickbales/puppet-ntp.git',
 #  :ref => 'master'
+
+mod 'role',
+  :git     => 'git@github.com:nickbales/puppet-role.git',
+  :ref     => 'master'
+
+mod 'profile',
+  :git     => 'git@github.com:nickbales/puppet-profile.git',
+  :ref     => 'master'
 
