@@ -11,6 +11,9 @@ mod 'puppet/selinux',         '0.8.0'
 mod 'garethr/docker',         '5.3.0'
 mod 'puppetlabs/apt',         '2.3.0'
 mod 'stahnma/epel',           '1.2.2'
+mod 'puppetlabs/ntp',         '4.1.2'
+mod 'puppet/selinux',         '1.6.1'
+
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -21,6 +24,14 @@ mod 'stahnma/epel',           '1.2.2'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'ssh',
+  :git     => 'git@github.com:nickbales/puppet-ssh.git',
+  :ref     => 'master'
+
+#mod 'ntp',
+#  :git => 'git@github.com:nickbales/puppet-ntp.git',
+#  :ref => 'master'
 
 mod 'role',
   :git => 'git@github.com:nickbales/puppet-role.git',
