@@ -24,11 +24,11 @@ mod 'stahnma/epel',           '1.2.2'
 
 mod 'role',
   :git => 'git@github.com:nickbales/puppet-role.git',
-  :ref => 'development'
+  :ref => 'master'
 
  mod 'profile',
   :git => 'git@github.com:nickbales/puppet-profile.git',
-  :ref => 'development'
+  :ref => 'master'
 
 mod 'ssh',
   :git => 'git@github.com:nickbales/puppet-ssh.git',
