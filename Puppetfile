@@ -4,7 +4,7 @@ forge 'https://forge.puppet.com'
 # Versions should be updated to be the latest at the time you start
 mod 'puppetlabs/inifile',     '2.2.1'
 mod 'puppetlabs/stdlib',      '4.13.1'
-mod 'voxpupuli/archive',      '3.2.1'
+mod 'puppet/archive',         '3.2.1'
 mod 'puppetlabs/concat',      '4.2.1'
 mod 'puppetlabs/java',        '1.6.0'
 mod 'puppetlabs/apache',      '3.4.0'
