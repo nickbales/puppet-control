@@ -45,7 +45,7 @@ mod 'ssh',
   :git => 'git@github.com:nickbales/puppet-ssh.git',
   :ref => 'master'
 
-mod 'ntp',
-  :git => 'git@github.com:nickbales/puppet-ntp.git',
-  :ref => 'master'
+#mod 'ntp',
+#  :git => 'git@github.com:nickbales/puppet-ntp.git',
+#  :ref => 'master'
 
