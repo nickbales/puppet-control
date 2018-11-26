@@ -9,6 +9,8 @@ mod 'puppetlabs/java',        '1.6.0'
 mod 'puppetlabs/apache',      '3.4.0'
 mod 'puppet/selinux',         '0.8.0'
 mod 'garethr/docker',         '5.3.0'
+mod 'puppetlabs/apt',         '2.3.0'
+mod 'stahnma/epel',           '1.2.2'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -20,13 +22,13 @@ mod 'garethr/docker',         '5.3.0'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-#mod 'role',
-#  :git => 'git@github.com:nickbales/puppet-role.git',
-#  :ref => 'development'
+mod 'role',
+  :git => 'git@github.com:nickbales/puppet-role.git',
+  :ref => 'development'
 
-# mod 'profile',
-#  :git => 'git@github.com:nickbales/puppet-profile.git',
-#  :ref => 'development'
+ mod 'profile',
+  :git => 'git@github.com:nickbales/puppet-profile.git',
+  :ref => 'development'
 
 mod 'ssh',
   :git => 'git@github.com:nickbales/puppet-ssh.git',
