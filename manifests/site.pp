@@ -18,6 +18,7 @@ node 'nickbales2.mylabserver.com' {
   notify { 'test-message-for-nickbales2': 
     message => "nickbales2 using node definition",
   }
+}
 
 # DEFAULT NODE
 # Node definitions in this file are merged with node data from the console. See
