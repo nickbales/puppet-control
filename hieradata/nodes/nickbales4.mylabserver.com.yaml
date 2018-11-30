@@ -1,8 +1,10 @@
 ---
 profile::apache::apache_vhost_servers:
-  - 'servername': 'nickbales2.mylabserver.com'
-    'port': 80
-    'docroot': '/var/www/html/nickbales2'
-  - 'servername': 'nickbales2b.mylabserver.com'
-    'port': 80
-    'docroot': '/var/www/html/nickbales2b'
+  - 'nickbales2.mylabserver.com':
+      'servername': 'nickbales2.mylabserver.com'
+      'port': 80
+      'docroot': '/var/www/html/nickbales2'
+  - 'nickbales2b.mylabserver.com':
+      'servername': 'nickbales2b.mylabserver.com'
+      'port': 80
+      'docroot': '/var/www/html/nickbales2b'
