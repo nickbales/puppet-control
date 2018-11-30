@@ -36,3 +36,8 @@ node 'nickbales3.mylabserver.com' {
   class { 'java': }
 }
 
+node 'nickbales4.mylabserver.com' {
+  notify { 'nickbales4-notify':
+    message => 'node declaration for nickbales4'
+  }
+}
